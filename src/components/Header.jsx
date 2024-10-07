@@ -4,7 +4,7 @@ function Header(props) {
   return (
     <>
             <header className="header_section">
-          <div className="header_top">
+          {/* <div className="header_top">
             <div className="container-fluid">
               <div className="contact_nav">
                 <a href="">
@@ -17,7 +17,7 @@ function Header(props) {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="header_bottom">
             <div className="container-fluid">
               <nav className="navbar navbar-expand-lg custom_nav-container ">

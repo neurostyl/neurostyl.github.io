@@ -1,4 +1,5 @@
 import React from "react";
+import MeetTeam from "../components/MeetTeam";
 
 function Home() {
   return (
@@ -8,10 +9,10 @@ function Home() {
         
         {/* end header section */}
         {/* slider section */}
-        {/* <section className="slider_section "> */}
+        <section className="slider_section ">
           <div className="container ">
             <div className="row">
-              <div className="col-md-6 ">
+              {/* <div className="col-md-6 ">
                 <div className="detail-box">
                   <h1>
                     Repair and <br />
@@ -26,15 +27,15 @@ function Home() {
                   </p>
                   <a href="">Contact Us</a>
                 </div>
-              </div>
-              <div className="col-md-6">
+              </div> */}
+              <div className="col">
                 <div className="img-box">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/zCLsP2nrR_c?si=4nUBd0r-psVhaxzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
           </div>
-        {/* </section> */}
+        </section>
         {/* end slider section */}
       </div>
       {/* feature section */}
@@ -105,7 +106,7 @@ function Home() {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="detail-box">
-                <h2>About us</h2>
+                <h2>Ishaan</h2>
                 <p>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
@@ -123,6 +124,37 @@ function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="about_section layout_padding-bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 col-md-6">
+              <div className="detail-box">
+                <h2>Alen</h2>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomisedThere are many
+                  variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected
+                  humour, or randomised
+                </p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+            <div className="col-lg-7 col-md-6">
+              <div className="img-box">
+                <img src="assets/images/about-img.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="about_section layout_padding-bottom">
+        <div className="container">
+        <MeetTeam/>
         </div>
       </section>
       {/* end about section */}
@@ -336,7 +368,7 @@ function Home() {
       </section> */}
       {/* end client section */}
       {/* contact section */}
-      <section className="contact_section layout_padding">
+      {/* <section className="contact_section layout_padding">
         <div className="container">
           <div className="heading_container">
             <h2>Contact Us</h2>
@@ -377,7 +409,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* end contact section */}
       {/* info section */}
       <section className="info_section ">
