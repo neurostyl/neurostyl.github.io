@@ -8,7 +8,7 @@ function Home() {
         
         {/* end header section */}
         {/* slider section */}
-        <section className="slider_section ">
+        {/* <section className="slider_section "> */}
           <div className="container ">
             <div className="row">
               <div className="col-md-6 ">
@@ -34,11 +34,11 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        {/* </section> */}
         {/* end slider section */}
       </div>
       {/* feature section */}
-      <section className="feature_section">
+      {/* <section className="feature_section">
         <div className="container">
           <div className="feature_container">
             <div className="box">
@@ -97,7 +97,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* end feature section */}
       {/* about section */}
       <section className="about_section layout_padding-bottom">
@@ -127,7 +127,7 @@ function Home() {
       </section>
       {/* end about section */}
       {/* professional section */}
-      <section className="professional_section layout_padding">
+      {/* <section className="professional_section layout_padding">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -152,10 +152,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* end professional section */}
       {/* service section */}
-      <section className="service_section layout_padding">
+      {/* <section className="service_section layout_padding">
         <div className="container ">
           <div className="heading_container heading_center">
             <h2> Our Services </h2>
@@ -208,10 +208,10 @@ function Home() {
             <a href="">View More</a>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* end service section */}
       {/* client section */}
-      <section className="client_section ">
+      {/* <section className="client_section ">
         <div className="container">
           <div className="heading_container heading_center">
             <h2>What Our Clients Say</h2>
@@ -333,7 +333,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* end client section */}
       {/* contact section */}
       <section className="contact_section layout_padding">

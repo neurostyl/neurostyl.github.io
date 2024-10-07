@@ -39,7 +39,7 @@ function Header(props) {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ">
+                  {/* <ul className="navbar-nav ">
                     <li className="nav-item active">
                       <a className="nav-link" href="index.html">
                         Home <span className="sr-only">(current)</span>
@@ -61,7 +61,7 @@ function Header(props) {
                         Contact Us
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </nav>
             </div>
