@@ -17,9 +17,10 @@ body {
 
 .team-container {
   display: flex;
-  justify-content: center; /* Align horizontally */
+  justify-content: center;
   gap: 20px; /* Space between cards */
   align-items: stretch; /* Ensures all cards stretch to the same height */
+  flex-wrap: wrap; /* Allows wrapping of items on smaller screens */
 }
 
 .team-member {
@@ -55,4 +56,32 @@ body {
 
 .team-member p:last-child {
   margin-top: auto; /* Ensures the bio text aligns at the bottom of the card */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .team-container {
+    justify-content: center;
+    flex-direction: column; /* Stack team members vertically */
+    align-items: center;
+  }
+  
+  .team-member {
+    width: 90%; /* Take most of the screen width on smaller devices */
+    margin-bottom: 20px; /* Add margin between stacked members */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-section h2 {
+    font-size: 28px; /* Reduce heading size on very small screens */
+  }
+
+  .team-member h3 {
+    font-size: 20px; /* Adjust the size of the name */
+  }
+
+  .team-member p {
+    font-size: 14px; /* Adjust paragraph font size */
+  }
 }
