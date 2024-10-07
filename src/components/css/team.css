@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.team-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.team-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center; /* Align horizontally */
+  gap: 20px; /* Space between cards */
+  align-items: stretch; /* Ensures all cards stretch to the same height */
+}
+
+.team-member {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Ensures content stacks vertically */
+  justify-content: space-between; /* Ensures even distribution of content */
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto 15px auto; /* Centers the image horizontally */
+  display: block; /* Ensures the image is treated as a block-level element */
+}
+
+.team-member h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #777;
+}
+
+.team-member p:last-child {
+  margin-top: auto; /* Ensures the bio text aligns at the bottom of the card */
+}
