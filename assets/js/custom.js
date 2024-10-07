@@ -4,7 +4,7 @@ function getCurrentYear() {
     var year = d.getFullYear();
     document.querySelector("#displayDateYear").innerText = year;
 }
-getCurrentYear()
+//getCurrentYear()
 
 //client section owl carousel
 $(".owl-carousel").owlCarousel({
