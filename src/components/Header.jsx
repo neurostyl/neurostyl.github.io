@@ -24,7 +24,7 @@ function Header(props) {
                 <a className="navbar-brand" href="index.html">
                   <span>Neurostyl</span>
                 </a>
-                <button
+                {/* <button
                   className="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
@@ -34,7 +34,7 @@ function Header(props) {
                   aria-label="Toggle navigation"
                 >
                   <span className=""> </span>
-                </button>
+                </button> */}
                 <div
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
