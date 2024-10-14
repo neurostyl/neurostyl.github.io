@@ -53,8 +53,8 @@ body {
 }
 
 .layout_padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .layout_padding2 {
@@ -460,10 +460,10 @@ a:focus {
 .professional_section {
   // background-color: $primary1;
   // color: $white;
-  background-color: #d1e3ff;
+  background-color: #000000;
 
   .row {
-    align-items: center;
+    align-items: top;
   }
 
   .img-box {
@@ -479,15 +479,8 @@ a:focus {
       color: $primary1;
     }
 
-    p {
-      margin-top: 20px;
-    }
-
-    a {
-      margin-top: 25px;
-      @include hero_btn($primary2, $white, 10px, 45px, 2px);
-
-    }
+   
+    
   }
 }
 
@@ -790,7 +783,7 @@ a:focus {
 
 .footer_section {
 
-  background-color: #0a0f43;
+  background-color: #ffffff;
 
 }
 
